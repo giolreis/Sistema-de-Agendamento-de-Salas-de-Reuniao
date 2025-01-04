@@ -1,0 +1,30 @@
+/* Navbar */
+.navbar {
+    font-family: 'Arial', sans-serif; /* A mesma fonte que você está usando */
+    font-size: 1.5rem; /* Tamanho da fonte semelhante ao 'Sobre Nós' */
+    font-weight: bold; /* Deixe as letras em negrito */
+    color: #388e3c; /* Cor verde escuro */
+}
+
+.navbar .nav-link {
+    color: #333; /* Cor de texto para os links */
+    margin-right: 15px;
+    font-size: 1.25rem; /* Ajuste o tamanho da fonte se necessário */
+}
+
+.navbar .btn {
+    font-size: 1.25rem; /* Ajuste o tamanho da fonte do botão */
+    color: #fff;
+    background-color: #388e3c; /* Cor verde escuro */
+    border: none;
+    font-weight: bold; /* Deixe o texto do botão em negrito */
+}
+
+.navbar .btn:hover {
+    background-color: #2e7d32; /* Cor verde escuro para hover */
+}
+
+/* Adiciona uma borda inferior para os itens do navbar */
+.navbar .nav-link:hover {
+    border-bottom: 2px solid #388e3c; /* Adiciona uma linha de destaque ao passar o mouse */
+}

@@ -1,0 +1,79 @@
+/* Estilo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Organiza o layout como uma coluna */
+    min-height: 100vh; /* Garante que o body ocupe toda a altura da viewport */
+    background: linear-gradient(to bottom, #e8f5e9, #c8e6c9); /* Degradê de verdes claros */
+    color: #333;
+}
+
+/* Header */
+.header {
+    background-color: #f1f8e9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #388e3c;
+}
+
+.navbar .nav-link {
+    color: #333;
+    margin-right: 15px;
+}
+
+.navbar .btn {
+    color: #fff;
+    background-color: #388e3c;
+    border: none;
+}
+
+.navbar .btn:hover {
+    background-color: #2e7d32;
+}
+
+/* Títulos */
+.title {
+    font-size: 3rem;
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.project-title {
+    font-size: 2rem;
+    color: #444;
+}
+
+/* Carrossel */
+.carousel img {
+    max-height: 400px; /* Limita a altura para manter as imagens responsivas */
+    object-fit: cover; /* Ajusta as imagens para preencher sem distorção */
+}
+
+/* Footer */
+.footer {
+    background: linear-gradient(to bottom, #c8e6c9, #e8f5e9); /* Degradê no footer */
+    color: #666;
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: auto; /* Força o footer a ir para o final */
+    width: 100%; /* Garante que ele ocupe toda a largura */
+}
+
+/* Imagens */
+img {
+    max-width: 100%;
+    height: auto;
+}
+

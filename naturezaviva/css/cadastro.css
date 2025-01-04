@@ -1,0 +1,124 @@
+/* Estilo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Organiza o layout como uma coluna */
+    min-height: 100vh; /* Garante que o body ocupe toda a altura da viewport */
+    background: linear-gradient(to bottom, #e8f5e9, #c8e6c9); /* Degradê de verdes claros */
+    color: #333;
+}
+
+/* Header */
+.header {
+    background-color: #f1f8e9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #388e3c; /* Verde igual ao index */
+}
+
+.navbar .nav-link {
+    color: #333;
+    margin-right: 15px;
+}
+
+.navbar .btn {
+    color: #fff;
+    background-color: #388e3c; /* Verde do botão */
+    border: none;
+}
+
+.navbar .btn:hover {
+    background-color: #2e7d32;
+}
+
+/* Títulos */
+.title {
+    font-size: 3rem;
+    color: #388e3c; /* Verde igual ao index */
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.project-title {
+    font-size: 2rem;
+    color: #444;
+}
+
+/* Estilo dos botões */
+button, .btn-custom {
+    background-color: #388e3c; /* Verde de todos os botões */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+button:hover, .btn-custom:hover {
+    background-color: #2e7d32; /* Cor do hover mais escura */
+}
+
+/* Formulário de Cadastro */
+.login-box {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin-top: 30px;
+    max-width: 400px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.forms-dados input,
+.forms-dados button {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.forms-dados input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.forms-dados button {
+    padding: 12px;
+    background-color: #388e3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.forms-dados button:hover {
+    background-color: #2e7d32;
+}
+
+/* Footer */
+.footer {
+    background: linear-gradient(to bottom, #c8e6c9, #e8f5e9); /* Degradê no footer */
+    color: #666;
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: auto; /* Força o footer a ir para o final */
+    width: 100%; /* Garante que ele ocupe toda a largura */
+}
+
+/* Imagens */
+img {
+    max-width: 100%;
+    height: auto;
+}

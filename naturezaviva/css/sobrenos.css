@@ -1,0 +1,91 @@
+/* Estilo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #e8f5e9, #c8e6c9); /* Degradê de verdes claros */
+    color: #333;
+}
+
+/* Header */
+.header {
+    background-color: #f1f8e9; /* Cor de fundo clara */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #388e3c; /* Cor verde escuro */
+}
+
+.navbar .nav-link {
+    color: #333;
+    margin-right: 15px;
+}
+
+.navbar .btn {
+    color: #fff;
+    background-color: #388e3c; /* Cor verde escuro */
+    border: none;
+}
+
+.navbar .btn:hover {
+    background-color: #2e7d32; /* Cor verde escuro */
+}
+
+/* Títulos */
+.title {
+    font-size: 3rem;
+    color: #2e7d32; /* Cor verde */
+    font-weight: bold;
+}
+
+.project-title {
+    font-size: 2rem;
+    color: #388e3c; /* Cor verde escuro */
+    font-weight: bold;
+}
+
+.lead {
+    font-size: 1.25rem;
+    color: #444; /* Cor do texto padrão */
+    line-height: 1.6;
+}
+
+/* Estilo das imagens da equipe */
+.team-img {
+    border-radius: 10px;
+    width: 100%;
+    height: 250px; /* Define uma altura fixa para todas as imagens */
+    object-fit: cover; /* Faz as imagens se ajustarem dentro da caixa sem distorção */
+}
+
+/* Estilo das colunas de membros da equipe */
+.row {
+    margin-top: 20px;
+}
+
+.col-md-4 {
+    margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(to bottom, #c8e6c9, #e8f5e9); /* Degradê no footer */
+    color: #666;
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: auto; /* Força o footer a ir para o final */
+    width: 100%;
+}
+
+/* Imagens */
+img {
+    max-width: 100%;
+    height: auto;
+}
